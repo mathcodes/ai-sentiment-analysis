@@ -24,30 +24,26 @@ Set up authentication: Provide your OpenAI API key in your application's authent
 
 Make a sentiment analysis request: Construct an API request to analyze the sentiment of your text input. Set the model parameter to the appropriate sentiment analysis model, such as gpt-3.5-turbo. You can provide the text you want to analyze in the prompt parameter.
 
-Here's an example API request using Python and the requests library:
+Here's the API request using Python and the requests library:
 
 ```python
-import requests
+for key, title_with_comments in titles_and_comments.items():
+    prompt = create_prompt(title_with_comments)
 
-api_key = 'YOUR_API_KEY'
-model = 'gpt-3.5-turbo'
-prompt = 'I am very happy'
-
-headers = {
-    'Authorization': f'Bearer {api_key}',
-    'Content-Type': 'application/json'
-}
-
-data = {
-    'model': model,
-    'prompt': prompt,
-    'max_tokens': 1,
-    'temperature': 0.0,
-    'stop': '\n'
-}
-
-response = requests.post('https://api.openai.com/v1/engines/davinci/completions', headers=headers, json=data)
+    response = openai.Completion.create(engine='text-davinci-003',
+                                        prompt=prompt,
+                                        max_tokens=256,
+                                        temperature=0,
+                                        top_p=1.0
+    )
+    print(title_with_comments)
+    print(f"Sentiment Report From OpenAI: {response['choices'][0]['text']}")
+    print("--------------------------------------------------")
 ```
+
+## Example Response:
+
+<img src="./Result.png" alt="Example Response" width="50%" />
 
 Adjust the prompt variable to contain your desired text input.
 
