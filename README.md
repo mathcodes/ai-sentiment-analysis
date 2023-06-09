@@ -1,5 +1,7 @@
 # OpenAI Completion API for Sentiment Analysis
-![OpenAI API](https://img.shields.io/badge/OpenAI%20API-v1.0-%230075FF?logo=openai) ![Language Model](https://img.shields.io/badge/Language%20Model-GPT--3.5-%23FFD54F?logo=openai) ![Sentiment Analysis](https://img.shields.io/badge/Sentiment%20Analysis-OpenAI%20API-%2370B7FD?logo=openai) ![Reddit](https://img.shields.io/badge/API%20-Reddit-%23FF4500?logo=reddit)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-v1.0-%230075FF?logo=openai) ![Language Model](https://img.shields.io/badge/Language%20Model-GPT--3.5-%23FFD54F?logo=openai) ![Sentiment Analysis](https://img.shields.io/badge/Sentiment%20Analysis-OpenAI%20API-%2370B7FD?logo=openai) ![Reddit](https://img.shields.io/badge/API%20-Reddit-%23FF4500?logo=reddit) [![Python](https://img.shields.io/badge/script-Python-blue?logo=python)](https://www.python.org/) [![Jupyter](https://img.shields.io/badge/notebook-Jupyter-orange?logo=Jupyter)](your_Jupyter_notebook_link_here)
+
+
 
 
 This README provides guidelines on how to use the OpenAI Completion API for sentiment analysis. The OpenAI Completion API allows you to leverage the power of OpenAI's language model to analyze the sentiment of text inputs. By following the steps outlined in this document, you will be able to integrate sentiment analysis capabilities into your own applications or workflows.
@@ -78,6 +80,6 @@ By following the instructions in this README, you can integrate the OpenAI Compl
 ## Contact
 <img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
 
-__Jon Christie__ 
+__Jon Christie__
 
-GitHub: [mathcodes](https://github.com/mathcodes) 
+GitHub: [mathcodes](https://github.com/mathcodes)
