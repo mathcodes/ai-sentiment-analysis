@@ -1,4 +1,6 @@
 # OpenAI Completion API for Sentiment Analysis
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-v1.0-%230075FF?logo=openai) ![Language Model](https://img.shields.io/badge/Language%20Model-GPT--3.5-%23FFD54F?logo=openai) ![Sentiment Analysis](https://img.shields.io/badge/Sentiment%20Analysis-OpenAI%20API-%2370B7FD?logo=openai) ![Reddit](https://img.shields.io/badge/API%20-Reddit-%23FF4500?logo=reddit)
+
 
 This README provides guidelines on how to use the OpenAI Completion API for sentiment analysis. The OpenAI Completion API allows you to leverage the power of OpenAI's language model to analyze the sentiment of text inputs. By following the steps outlined in this document, you will be able to integrate sentiment analysis capabilities into your own applications or workflows.
 
